@@ -7,6 +7,7 @@
 CC = gcc
 CFLAGS = -std=c99 -Wall -Wextra -Werror
 TARGET = list
+MEMCHECK = valgrind --leak-check=full
 
 all: $(TARGET)
 
@@ -18,6 +19,9 @@ main.o: main.c list.h
 
 list.o: list.c list.h
 	$(CC) $(CFLAGS) -c list.c
+
+memcheck: $(TARGET)
+	$(MEMCHECK) ./$(TARGET)
 
 clean:
 	rm -f *.o $(TARGET)

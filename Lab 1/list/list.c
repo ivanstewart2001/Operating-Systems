@@ -23,7 +23,7 @@ void list_free(list_t *l) {
       free(current);
       current = next;
   }
-  free(l);
+  l->head = NULL;
 }
 
 void list_print(list_t *l) {
