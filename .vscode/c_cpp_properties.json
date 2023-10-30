@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": [],
+      "compilerPath": "C:\\mingw64\\bin\\gcc.exe", // Adjust the path to your GCC executable
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "msvc-x64"
+    }
+  ],
+  "version": 4
+}
