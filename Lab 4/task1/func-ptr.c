@@ -8,6 +8,8 @@
 
 #define DEBUG 0			//change this to 1 to enable verbose output
 
+// Collaborated with Lauren Guthrie 
+
 /**
  * Signature for an function pointer that can compare
  * You need to cast the input into its actual 
