@@ -11,6 +11,8 @@ int exitprog (int a, int b);
 /* Function pointer type */
 typedef int (*Operation)(int a, int b);
 
+// Collaborated with Lauren Guthrie 
+
 int main(void)
 {
     /* Array of function pointers */
